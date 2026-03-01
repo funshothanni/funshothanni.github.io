@@ -5,15 +5,15 @@ Slug: resume
 
 **Phone:** 204-230-8536  
 **Email:** obafunshot@gmail.com  
-**LinkedIn:** https://linkedin.com/in/funshothanni  
-**GitHub:** https://github.com/jake  
+**[LinkedIn](https://linkedin.com/in/funshothanni)**  
+**[GitHub](https://github.com/funshothanni)**
 
 ---
 
 ## Education
 
 **University of Manitoba** — Winnipeg, Manitoba  
-Bachelor of Science in Computer Science | May 2023 – Present *(or expected graduation date)*
+Bachelor of Science in Computer Science | May 2023 – Present
 
 **Global Cambridge College** — Ibadan, Oyo  
 A’Levels | Oct 2021 – Jun 2022
@@ -27,6 +27,7 @@ High School | Sept 2015 – Oct 2021
 
 ### Leads Generator — Weather Tech Heating & Cooling  
 Winnipeg, MB | Aug 2024 – Present  
+
 * Generated qualified leads for HVAC sales by contacting potential customers and clearly communicating service benefits.
 
 * Supported marketing campaigns by identifying target customer segments and promoting seasonal offers.
@@ -35,6 +36,7 @@ Winnipeg, MB | Aug 2024 – Present
 
 ### Bartender — Great Outdoors Comedy Festival  
 Winnipeg, MB | Jul 2025  
+
 * Delivered prompt, friendly service in a high-volume, fast-paced event environment.
 
 * Took orders accurately, made menu recommendations, and accommodated dietary restrictions.
@@ -45,6 +47,7 @@ Winnipeg, MB | Jul 2025
 
 ### Assistant Constructor — Foxtrot Network Construction  
 Winnipeg, MB | Jul 2024 – Aug 2024  
+
 * Assisted with installation, maintenance, and repair of network infrastructure, including underground cable systems.
 
 * Supported field technicians with fiber optic work, conduit installation, and network component connections.
