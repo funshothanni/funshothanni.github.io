@@ -7,4 +7,4 @@ title: Home
 
 Hi! This is my professional resume website built using Markdown and GitHub Pages.
 
-You can view my resume [here](/resume).
+You can view my resume [here](resume).
