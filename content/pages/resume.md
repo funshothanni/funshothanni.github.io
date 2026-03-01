@@ -62,6 +62,7 @@ Winnipeg, MB | Jul 2024 – Aug 2024
 
 ### Library Management System *(Java, Maven, JSON, OOP, Design by Contract)*  
 Sept 2025 – Dec 2025  
+
 * Designed and implemented a multi-user library system using layered architecture (domain model, logic, UI).
 
 * Built features for borrowing, waitlists, accounts, resource booking, and reviews.
