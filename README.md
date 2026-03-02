@@ -219,3 +219,17 @@ This is because the website is static. Updating the Markdown file does not autom
 * To update the live site: rebuild the site `make html`, then commit and push the updated generated files to the branch that GitHub Pages publishes.
 
 ## Credits
+**Author**
+
+Thanni Obafunsho
+
+**Peer Review Contributors**
+
+Graham Irwin
+
+Tobechukwu 
+
+**Third-Party Tools**
+* Pelican (static site generator)
+* Git
+* Default Pelican Theme
