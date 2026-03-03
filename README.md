@@ -227,7 +227,7 @@ Thanni Obafunsho
 
 Graham Irwin
 
-Tobechukwu 
+Tobechukwu Ogbechie
 
 **Third-Party Tools**
 * Pelican (static site generator)
