@@ -4,7 +4,7 @@ This document explains how to format a resume using Markdown and publish it as a
 
 ## Prerequisites 
 _Listing prerequisites in advance follows Etter’s recommendation to anticipate reader needs and reduce unnecessary friction._ Before beginning, ensure you have access to the following:
-* Computer (MacOs, Windows or Linux)
+* Computer (these instructions are specifically for MacOs)
 * Terminal (Command Prompt, Terminal)
 * Python (to run Pelican)
 * Text Editor (nano, VS Code, etc.)
