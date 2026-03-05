@@ -95,7 +95,7 @@ _Etter recommends lightweight markup languages such as Markdown because they are
    Date: 2026-03-01
    Slug: resume
    ```
-6. Using **Markdwon syntax**, write the content of the resume below the metadata
+6. Using **Markdown syntax**, write the content of the resume below the metadata
 7. Save the file:
    ```bash
    Ctrl + X
