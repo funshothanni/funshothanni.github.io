@@ -103,27 +103,24 @@ _Etter recommends lightweight markup languages such as Markdown because they are
    ```
 ### 6. Add a Home Page
 Adding a resume ensures that the resume is accessible from the main URL of the site.
-1. In the same pages directory:
-   ```bash
-   cd ..
-   ```
-2. Create a file named `home.md`
+In the same `pages` directory:
+1. Create a file named `home.md`
    ```bash
    touch home.md
    ```
-3. Add metadata at the top of the file:
+2. Add metadata at the top of the file:
    ```markdown
    Title: Home
    Date: 2026-03-01
    Slug: home
    Save_as: index.html
    ```
-4. Add a short introductory paragraph to the home screen.
-5. Add a link to the resume page:
+3. Add a short introductory paragraph to the home screen.
+4. Add a link to the resume page:
    ```markdown
    [Tap here to view Resume](/pages/resume.html)
    ```
-6. Save the file
+5. Save the file
    ```bash
    Ctrl + X
    Return
