@@ -153,13 +153,13 @@ _Hosting documentation on a forge ensures public accessibility and version contr
 3. Click **New Repository**
 4. Name your repository:
    ```text
-   <your-username.github.io>
+   your-username.github.io
    ```
 5. Set repository to public
 6. Click **Create Repository**
 7. Add the remote repository
    ```bash
-   git remote add origin https://github.com/<your-username>/<your-username>.github.io.git
+   git remote add origin https://github.com/your-username/your-username.github.io.git
    ```
 8. Add the project files:
    ```bash
@@ -167,7 +167,7 @@ _Hosting documentation on a forge ensures public accessibility and version contr
    ```
 9. Commit the files:
    ```bash
-   git commit -m "Initial Pelican source files"
+   git commit -m "initial commit for website"
    ```
 10. Push to the main branch
     ```bash
@@ -188,7 +188,7 @@ _Hosting documentation on a forge ensures public accessibility and version contr
 14. Commit the published files:
     ```bash
     git add .
-    git commit -m "Publish site"
+    git commit -m "publish site"
     ```
 15. Push Changes:
     ```bash
@@ -197,7 +197,7 @@ _Hosting documentation on a forge ensures public accessibility and version contr
 ### 9. Verify Development
 1. Visit
    ```text
-   https://<your-username>.github.io
+   https://your-username.github.io
    ```
 2. Confirm that the home page loads
 3. Confirm that the resume link works too
@@ -230,4 +230,4 @@ Tobechukwu Ogbechie
 
 **Third-Party Tools**
 * [Pelican Tips Docs](https://docs.getpelican.com/en/latest/tips.html?utm_source=chatgpt.com)
-* Git
+* [Git Checkout Docs](https://git-scm.com/docs/git-checkout?utm_source=chatgpt.com)
