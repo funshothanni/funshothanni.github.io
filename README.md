@@ -8,8 +8,8 @@ _Listing prerequisites in advance follows Etter’s recommendation to anticipate
 * Terminal (Command Prompt, Terminal)
 * Python (to run Pelican)
 * Text Editor (nano, VS Code, etc.)
-* GitHub account (hosting the repository & live site)
-* Git installed (version control & publishing to GitHub)
+* [GitHub account (hosting the repository & live site)](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
+* [Git installed (version control & publishing to GitHub)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
     * Run these quick commands to confirm all necessary tools are installed:
       ```bash
       python3 --version
@@ -103,19 +103,20 @@ _Etter recommends lightweight markup languages such as Markdown because they are
    ```
 ### 6. Add a Home Page
 Adding a resume ensures that the resume is accessible from the main URL of the site.
-1. Return to the content directory:
+1. In the same pages directory:
    ```bash
    cd ..
    ```
-2. Create a file named `index.html`
+2. Create a file named `home.md`
    ```bash
-   touch index.html
+   touch home.md
    ```
 3. Add metadata at the top of the file:
    ```markdown
    Title: Home
    Date: 2026-03-01
-   Slug: index
+   Slug: home
+   Save_as: index.html
    ```
 4. Add a short introductory paragraph to the home screen.
 5. Add a link to the resume page:
@@ -151,47 +152,48 @@ _Generating the site converts Markdown files into static HTML output._ To previe
 ### 8. Publish to GitHub Pages 
 _Hosting documentation on a forge ensures public accessibility and version control. Etter argues that modern documentation should be distributed and easily shareable.._
 1. Open GitHub in a web browser.
-2. Click **New Repository**
-3. Name your repository:
+2. Create an account (Login if you already have one)
+3. Click **New Repository**
+4. Name your repository:
    ```text
    <your-username.github.io>
    ```
-4. Set repository to public
-5. Click **Create Repository**
-6. Add the remote repository
+5. Set repository to public
+6. Click **Create Repository**
+7. Add the remote repository
    ```bash
    git remote add origin https://github.com/<your-username>/<your-username>.github.io.git
    ```
-7. Add the project files:
+8. Add the project files:
    ```bash
    git add .
    ```
-8. Commit the files:
+9. Commit the files:
    ```bash
    git commit -m "Initial Pelican source files"
    ```
-9. Push to the main branch
+10. Push to the main branch
     ```bash
     git push -u origin main
     ```
-10. Build site:
+11. Build site:
     ```bash
     make html
     ```
-11. Copy the generated files to the repository root:
+12. Copy the generated files to the repository root:
     ```bash
     cp -R output/* .
     ```
-12. Create a file named .nojekyll:
+13. Create a file named .nojekyll:
     ```bash
     touch .nojekyll
     ```
-13. Commit the published files:
+14. Commit the published files:
     ```bash
     git add .
     git commit -m "Publish site"
     ```
-14. Push Changes:
+15. Push Changes:
     ```bash
     git push
     ```
@@ -230,6 +232,5 @@ Graham Irwin
 Tobechukwu Ogbechie
 
 **Third-Party Tools**
-* Pelican (static site generator)
+* [Pelican Tips Docs](https://docs.getpelican.com/en/latest/tips.html?utm_source=chatgpt.com)
 * Git
-* Default Pelican Theme
